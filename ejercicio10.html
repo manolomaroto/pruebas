@@ -14,11 +14,11 @@ Cuando la sección se oculte, debe cambiar el mensaje del enlace asociado (pista:
 
 <script type="text/javascript">
     
-    document.getElementById("enlace_1").onclick=eliminar;
+    
     
     window.onload=function(){
         
-        
+        document.getElementById("enlace_1").onclick=eliminar;
         function eliminar(){
             var contenido1 = document.getElementById("contenidos_1");
             if(contenido1.style.display != "none"){
